@@ -9,7 +9,7 @@ jobs:
    - name: install nvim
      run: |
       sudo apt update
-      sudo apt install nvim
+      sudo apt install neovim
    - name: run nvim with modded config path
      run: |
       export NVIM_APPNAME="./"

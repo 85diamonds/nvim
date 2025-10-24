@@ -5,8 +5,6 @@ on: {pull_request, push}
 jobs:
  nvim:
   runs-on: ubuntu-latest
-  defaults:
-   working-directory: ./
   steps:
    - name: install nvim
      run: |
